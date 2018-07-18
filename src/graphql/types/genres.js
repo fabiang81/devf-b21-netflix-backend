@@ -7,7 +7,7 @@ import {
     GraphQLNonNull
 } from 'graphql'
 
-import Genre from '../../models/genres';
+import Genres from '../../models/genres';
 
 export const GenreType = new GraphQLObjectType({
     name:"ListGenres",
