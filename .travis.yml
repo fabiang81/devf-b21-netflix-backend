@@ -1,0 +1,11 @@
+language: node_js
+node_js: _'8.5.0'
+deploy:
+  provider: heroku
+  api_key:
+    secure: AOmw05f1GQo65ql6FZTg6NPEZWFPWiFhBae/gg5Nk7SR72niIR1RWB1jZgLrV9CChfT/1GV4qzwOifUXoqOD7HAEsO9NZ/c1oOe+wl49z48fCtAtpl0GF9bmSMvTkWsFT8A5Id4J0xisu6H587qEUYJfO+jDchkV1IyZDK4urbX/frpablaLBfPIKaOYQSzYoJ/R2FZAA3b9Yl8lpuDTBD0HaN7GymWSNvKiqRZyvzkc4RU0mvLjWLIo1TWnedbc3Y9SQZ5Tg1gElqjHRLPRk9vBHkrZGi6JE2ISyjql5PWvYB4OyVzTNf5FnwIEVFonnQDoDO5Ripi6h4o+gzZ8FgCwWoyN/1vVTBb5/7T7aLmvZuHRC0aJX2+W1acmF4mqq/L+VRkbIb4uOdg4eNF9nxVnB1EyC73/EYv7YVsaZMf7UXB4d4rG7yxII4XKqUjFu18v/vOrRnSr45OkIwDMZkhQfK1g1sIwDLDEzkT5kKZsoP9n58LdT0I9LR/FCm/i4dGxwREjq70NABIoBKo/8Sn/Yc61H0RWx4T9Om+6z4CErEF0sj9RWlALwxgAy1y1sCX0WkeInwnh7z0IQ6ZPjkvoReN+EsDDBv4iJNsAHndy1LMTOQOX3tCOuPEFy52/Ran1+cUnnCo+LMsjlunT1IacfpA9zLHHYn0J32+Geg0=
+  app: devf-b21-netflix-backend
+  on:
+    repo: fabiang81/devf-b21-netflix-backend
+    branch: master
+  skip_cleanup: true
